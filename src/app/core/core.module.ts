@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { provideHttpClient } from '@angular/common/http';
 // Bootstrap Module
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {HeaderComponent} from './header/header.component';
 
 
 @NgModule({
@@ -14,7 +15,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    HeaderComponent
+  ],
+  exports: [
+    HeaderComponent
   ],
   providers: [provideHttpClient()]
 })
