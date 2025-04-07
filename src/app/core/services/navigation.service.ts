@@ -5,7 +5,7 @@ import { filter, map, startWith } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class HeaderService {
+export class NavigationService {
 
   constructor(private router: Router) { }
 

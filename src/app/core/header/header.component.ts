@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BioService } from '../services/bio.service';
-import { HeaderService } from '../services/header.service';
+import { BioService } from '../../portfolio/services/bio.service';
+import { NavigationService } from '../services/navigation.service';
 import { AsyncPipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle } from "@ng-bootstrap/ng-bootstrap";
@@ -28,7 +28,7 @@ export class HeaderComponent {
     { title: 'JobHunt', homePath: '/', fragment: 'jobs', pagePath: '/jobs' },
   ]
 
-  constructor(private bioService: BioService, private headerService: HeaderService) {
+  constructor(private bioService: BioService, private headerService: NavigationService) {
     this.bio$ = this.bioService.getBio();
     this.isHome$ = this.headerService.isHome();
   }
