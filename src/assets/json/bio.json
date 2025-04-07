@@ -1,0 +1,106 @@
+{
+  "id": "1",
+  "experienceId": "1",
+  "projectId": "1",
+  "userId": "1",
+  "language": "fr",
+  "updatedAt": "2025-04-07T13:37:00Z",
+  "createdAt": "2025-04-07T13:37:00Z",
+  "title": "Architecte développeur Logiciel",
+  "public": false,
+  "professionalPosition": {
+    "availability": "JOB_SEARCH",
+    "professionalStatus": "DEMAND"
+  },
+  "owner": {
+    "firstName": "Alexandre",
+    "lastName": "CHAMPAUD"
+  },
+  "contacts": {
+    "mail": "champaud.alexandre@free.fr",
+    "tel": "0643519511"
+  },
+  "presentation": [
+    "Je suis développeur d'outils Saas en Java depuis 5 ans, avec un réel attrait pour le DevOps.",
+    "À l’aise en environnement Agile, je mets un point d'honneur à produire un code maintenable, performant et optimisé. J’aime collaborer et apprendre continuellement."
+  ],
+  "userInformation": {
+    "city": "Rennes",
+    "region": "35000",
+    "haveDrivingLicence": true,
+    "countryId": 72
+  },
+  "languageSkills": {
+    "elements": [
+      {
+        "language": "en",
+        "details": "Anglais professionnel (TOEIC 970)"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "description": "Compétences métier",
+      "children": [
+        {
+          "description": "Architecture Hexagonale"
+        },
+        {
+          "description": "DDD"
+        },
+        {
+          "description": "Etude et rédaction des spécs techniques"
+        },
+        {
+          "description": "Software As A Service (SaaS)"
+        },
+        {
+          "description": "CI/CD"
+        },
+        {
+          "description": "Tests Unitaires"
+        }
+      ]
+    },
+    {
+      "description": "Compétences techniques",
+      "children": [
+        {
+          "description": "Java 8 à 24"
+        },
+        {
+          "description": "GWT 2.9.0"
+        },
+        {
+          "description": "Javascript"
+        },
+        {
+          "description": "Python"
+        },
+        {
+          "description": "Bash"
+        }
+      ]
+    },
+    {
+      "description": "Aptitudes générales",
+      "children": [
+        {
+          "description": "Capacité d'anticipation"
+        },
+        {
+          "description": "Capacité de décision"
+        },
+        {
+          "description": "Adaptabilité"
+        },
+        {
+          "description": "Esprit d'équipe"
+        },
+        {
+          "description": "Aptitude à la concertation"
+        }
+      ]
+    }
+  ]
+}

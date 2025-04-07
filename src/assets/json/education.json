@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "bioId": 1,
+  "experienceId": 1,
+  "projectId": 1,
+  "userId": 1,
+  "educations": [
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2019"
+        },
+        "end": {
+          "month": "08",
+          "year": "2021"
+        }
+      },
+      "schoolName": "ESGI",
+      "diploma": "Master expert en ingénierie de l'informatique et des SI",
+      "description": "Formation d’expertise en conception et réalisation de solutions logicielles complexes, intégrant les architectures essentielles des SI, les plateformes actuelles (web, mobile, desktop) et les problématiques métier des entreprises. Programme axé sur la pratique avec workshops, projets et alternance obligatoire. Compétences développées : sécurité des systèmes, infrastructures cloud avancées, programmation fonctionnelle et optimisation des architectures. Secteurs d’application : finance, industrie, ESN, éditeurs logiciels.",
+      "details": [
+        {
+          "description": "Option Architecture des Logiciels"
+        }
+      ]
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2018"
+        },
+        "end": {
+          "month": "08",
+          "year": "2019"
+        }
+      },
+      "schoolName": "ESGI",
+      "diploma": "Bachelor de chef de projet logiciel et réseaux",
+      "description": "Spécialisation en architecture logicielle après un tronc commun de deux ans. Formation axée sur la maîtrise des concepts techniques, le développement d’applications collaboratives et la résolution de problèmes complexes. Approche pédagogique innovante mêlant workshops, projets et alternance. Acquisition des bases en sécurisation des systèmes et infrastructures cloud, avec des applications dans divers secteurs technologiques.",
+      "details": [
+        {
+          "description": "Option Architecture des Logiciels"
+        }
+      ]
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2016"
+        },
+        "end": {
+          "month": "08",
+          "year": "2018"
+        }
+      },
+      "schoolName": "au CFA Aforp",
+      "diploma": "BTS SIO",
+      "description": "Le BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) prépare à la mise en place de solutions informatiques au sein des entreprises, en vue de gérer efficacement un parc informatique complet."
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2013"
+        },
+        "end": {
+          "month": "08",
+          "year": "2016"
+        }
+      },
+      "schoolName": "au Lycée Isaac Newton",
+      "diploma": "BAC Pro Systèmes Electroniques et Numériques",
+      "description": "Le bac pro systèmes électroniques numériques (SEN) permet de former des professionnels qui installent et mettent en service des systèmes électroniques. Les professionnels peuvent s’occuper des alarmes de sécurité, du matériel audiovisuel ou multimédia, des électroménagers. Il faut également assurer leur maintenance."
+    }
+  ]
+}

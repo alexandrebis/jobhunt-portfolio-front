@@ -1,0 +1,225 @@
+{
+  "id": "1",
+  "bioId": "1",
+  "projectId": "1",
+  "userId": "1",
+  "language": "fr",
+  "yearsExperience": {
+    "numberYearsExperience": 5
+  },
+  "experiences": [
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2021"
+        },
+        "end": {
+          "month": "08",
+          "year": "2024"
+        }
+      },
+      "company": "ATAKAMA Technologies",
+      "city": "Paris & Rennes (Full Remote)",
+      "start": "2021-09-01",
+      "end": "2024-08-01",
+      "link": "https://www.atakama-technologies.com/",
+      "title": "Architecte Développeur Logiciel APM",
+      "description": "ATAKAMA Technologies est une société de service et d'édition de ses propres solutions logicielles de monitoring applicatif (APM) basée dans le sud de la France, traitant en B2B.",
+      "objectives": [],
+      "context": [
+        "J'avais pour responsabilité de contribuer au développement et à la maintenance des agents de monitoring Java et PHP, ainsi qu’à l’optimisation et la maintenance du back-end et du front-end du serveur Monolithe modulaire. J'étais également en charge de la gestion des releases, de l’amélioration des pipelines CI/CD et de l’accompagnement des clients en assurant formation et support technique.",
+        "Les enjeux du projet étaient d’assurer la stabilité et l’évolution continue de nos outils d'Observabilité, et de garantir une instrumentation de bout-en-bout des applications Hors-prod et Prod des client, afin d'assurer un suivi fiable à des fins de prévention mais aussi un diagnostic précis pour toutes défaillances remontées."
+      ],
+      "missions": [
+        {
+          "description": "Optimisation du back-end. Identification du goulot d’étranglement (traitement monothread), ajout de multithreading, conception de classes extensibles pour différentes politiques de traitement. CR, tests croisés, release.",
+          "result": "Vitesse x3 du traitement de données volumineuses.",
+          "environment": "Java 11, Spring 3, multithreading, profiling, optimisations, refactor"
+        },
+        {
+          "description": "Conception d’un écran \"Waterfall\" from scratch pour visualiser les transactions parcourant des microservices. Développement d'API, de Services et écran front, rédaction des specs avec le PO, maquettes et validation en équipe.",
+          "result": "Nouvel écran de visualisation des transactions opérationnel, tests unitaires API, corrections et améliorations UX avant validation et release et prise en compte des retours clients.",
+          "environment": "Java 11, Spring 3, API Rest, Bus d’évènements, GWT 2.9.0, JavaScript, JUnit, Mockito"
+        },
+        {
+          "description": "Ajout de l’instrumentation Jakarta sur l'agent APM Java pour les besoins de monitoring du client Unibank. Implémentation en pattern Weavers/Handlers sur un grand nombre de frameworks. Tests unitaires, validation (Code Review, test croisés), release.",
+          "result": "Modernisation des outils APM et support de librairies plus récentes.",
+          "environment": "Java 11, Pattern Weavers/Handlers, Analyse de dépendances, sécurité CVE"
+        },
+        {
+          "description": "Instrumentation des librairies PDO. Correction d’une corruption mémoire due à un accès concurrent (diagnostic par tests d’endurance, résolution via mutex). Compte des connexions BDD ajouté. Instrumentation PDO avec manip des fonctions Zend",
+          "result": "Amélioration de la stabilité et du support des librairies instrumentées par l'agent PHP.",
+          "environment": "Moteur PHP 5.6 à 8.2, Zend, analyse mémoire, debug avec GDB, concurrence"
+        },
+        {
+          "description": "Migration et optimisation de l’environnement de dev PHP : passage de RedHat à Debian pour assurer les mises à jour et la compatibilité. Simplification du build avec Docker-compose et Makefile (1 version PHP par image).",
+          "result": "Facilitation de l'adoption par les collaborateurs, un nouveau développeur avec un poste vierge peut désormais builder un agent dans les quelques minutes qui suivent.",
+          "environment": "Docker, docker-compose, Makefile (GNU CMake), Redhat, Debian, CI/CD"
+        },
+        {
+          "description": "Mise en place des bonnes pratiques de dev et Agile au sein d’une équipe de 6. Code review, tests croisés, validation des devs. Animation des cérémonies Agile (daily, rétro, sprint review). Introduction du Planning Poker pour affiner les estimations.",
+          "result": "Amélioration de la qualité des livrables et de l'efficacité des processus. Les revues de code et tests croisés ont réduit les bugs en production.",
+          "environment": "Agile, Scrum, Scrum Master, code review, gestion de backlog, Planning Poker, méthodologies et bonnes pratiques"
+        },
+        {
+          "description": "Rôle de Team Lead : gestion backlog, participation aux Codirs, échanges avec infra, devs et PO. Études d’architecture et décisions techniques. Développement, rédaction specs sur Jira, validation avec PO. Gestion des releases, rédaction release notes, suivi déploiements.",
+          "result": "Optimisation du backlog, coordination entre les équipes assurée. Grâce à une gestion efficace des releases et une documentation claire, nous avons réduit les erreurs post-déploiement de 25 % et amélioré la satisfaction client.",
+          "environment": "Jira, Confluence, Lead technique, Rédaction spéc techniques, releases, support technique, Gantt"
+        },
+        {
+          "description": "Support client, organisation de formations (niveaux: utilisateur, avancé, admin/infra) pour le Ministère de l’Éduc. Nat. sur bonnes pratiques et recommendations. Diag et résolution des problèmes de conf et d'installation prod et hors-prod dans les environnements client.",
+          "result": "Réduction des incidents de configuration de 30 % grâce à des diagnostics précis et des recommandations adaptées.",
+          "environment": "Support client, analyse, iTop, optimisation, formation"
+        }
+      ]
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2020"
+        },
+        "end": {
+          "month": "08",
+          "year": "2021"
+        }
+      },
+      "company": "ATAKAMA Technologies",
+      "city": "",
+      "start": "2020-09-01T16:39:11+00:00",
+      "end": "2021-08-01T16:39:11+00:00",
+      "title": "Apprenti Développeur Logiciel",
+      "description": "ATAKAMA Technologies est une société de service et d'édition de ses propres solutions logicielles de monitoring applicatif (APM) basée dans le sud de la France, traitant en B2B.",
+      "objectives": [],
+      "context": [
+        "Mon rôle en tant qu'apprenti consistait à améliorer et maintenir les agents APM, à garantir leur compatibilité avec les nouvelles versions de Java, à intégrer des pipelines CI/CD et des tests automatisés et assurer le support technique de niveau 3. Je devais aussi encourager la mise en pratique des méthodologies Agile et contribuer à l'amélioration continue de l'équipe."
+      ],
+      "missions": [
+        {
+          "description": "Pipeline CI/CD et automatisation des tests. \n- Mise en place d’une pipeline CI/CD sur Github Actions pour valider / builder les agents Java, C/C++ et le serveur backend, avec push des images sur un registre Docker.\n- Intégration de Cypress et Selenium à la pipeline pour automatiser des tests end-to-end.\n- Rédaction de la documentation de la Pipeline.",
+          "result": "Réduction du temps de build et de validation des agents, amélioration de la qualité du code et réduction des bugs en production.",
+          "environment": "GitHub Actions, Bash, Docker, Docker Compose, Git, Selenium, Cypress, Jenkins, Confluence"
+        },
+        {
+          "description": "Développement et maintenance de l’agent APM Java, maintenance, mise à jour de librairies (lib ASM 7.3.1 ⇒ 9.0) et ajout du support de Java 9",
+          "result": "Amélioration de la stabilité de l’agent APM Java et support des versions plus récentes de Java.",
+          "environment": "Java 8, Git, IntelliJ, GitHub Action, Maven"
+        },
+        {
+          "description": "Conception et mise en place d’une sandbox modulaire pour tester l’agent C/C++ sur des applications PHP.",
+          "result": "Réduction des délais de validation des agents C/C++ et PHP, permettant un développement plus rapide et efficace.",
+          "environment": "Docker, Docker Compose, Git, Bash, Environnement PHP 5.6 à 7.2"
+        },
+        {
+          "description": "Migration et optimisation de l’environnement de build de l’agent PHP\n- Transition du système de build de l’agent C/C++ de Vagrant vers Docker afin d'améliorer la portabilité.\n- Mise à disposition des images Docker pré-construites sur un registre Docker afin que tout nouveau développeur puisse construire l'agent PHP rapidement.",
+          "result": "Réduction du temps de configuration et d’installation de l’environnement de développement, facilitant l’intégration des nouveaux développeurs.",
+          "environment": "Docker, Docker Compose, Vagrant, Git, Bash, Environnement PHP 5.6 à 7.2"
+        },
+        {
+          "description": "Mise en place des méthodologies Agile au sein de l’équipe\n- Introduction des cérémonies Agile (Daily, Rétrospective, Review) pour améliorer la collaboration et le suivi des tâches\n- Facilitation des échanges entre les développeurs et le management",
+          "result": "Amélioration de la collaboration et de la productivité de l’équipe, réduction des délais de livraison.",
+          "environment": "Agile Scrum, Jira, Confluence"
+        },
+        {
+          "description": "Support client et assistance technique\n- Accompagnement des utilisateurs sur l’intégration des agents APM et diagnostic des anomalies pour optimiser les performances applicative",
+          "result": "Réduction du nombre de tickets de support et amélioration de la satisfaction client.",
+          "environment": "iTop"
+        }
+      ]
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2018"
+        },
+        "end": {
+          "month": "08",
+          "year": "2020"
+        }
+      },
+      "company": "Tenedis",
+      "city": "",
+      "start": "2018-09-01T07:58:19+00:00",
+      "end": "2020-08-01T07:58:19+00:00",
+      "title": "Apprenti Ingénieur APM Métrologie & Performance",
+      "description": "Tenedis est une entreprise qui accompagne ses clients à travers des prestations d’audit, de supervision et d’optimisation des infrastructures IT.",
+      "objectives": [],
+      "context": [
+        "Mon rôle en tant qu'apprenti était de contribuer aux activités de monitoring et d’analyse de performance, en support des équipes techniques et des besoins clients. L'équipe travaillait en mode Agile Scrum."
+      ],
+      "missions": [
+        {
+          "description": "Outil CLI en Python pour interfacer l'API Dynatrace\n- Développement d’un outil en ligne de commande pour simplifier les interactions avec l’API via des commandes unifiées\n- Automatisation de la gestion des tokens d’accès des tenants (génération, rotation, révocation) et des rôles utilisateurs",
+          "result": "Réduction des interventions manuelles et amélioration de la sécurité des accès API.",
+          "environment": "Python, API Rest, Git"
+        },
+        {
+          "description": "Scripts de supervision et automatisation\n- Développement et maintenance de scripts Python pour générer des fichiers de localisation de sites\n- Développements et maintenance de scripts robots de supervision d’applications (avec URL Check) chez le client Alstom sur Dynatrace Synthetic Monitoring",
+          "result": "Amélioration de la fiabilité des outils de supervision et réduction des erreurs humaines.",
+          "environment": "Python, Dynatrace Synthetic Monitoring, VBA"
+        },
+        {
+          "description": "Analyse et monitoring de performance\n- Création de dashboards et analyses sur Dynatrace NAM et Appmon\n- Restitution d’analyses et synthèses « Première vision » auprès du client Allianz",
+          "result": "Amélioration de la visibilité des performances applicatives et facilitation de la prise de décision.",
+          "environment": "Dynatrace NAM, Dynatrace Appmon, Word"
+        },
+        {
+          "description": "Intégration et configuration d’outils APM\n- Configuration de la connexion à Dynatrace Managed via un annuaire LDAP\n- Mise en place d’une maquette sur la Stack ELK avec agents APM pour la remontée des métriques système",
+          "result": "Amélioration de la gestion des accès et de la remontée des métriques système.",
+          "environment": "Dynatrace Managed, LDAP, ElasticSearch, Agents APM"
+        },
+        {
+          "description": "Apprentissage et veille technologique\n- Appropriation des concepts APM (Agents APM, Sondes, Serveur de Récolte)\n- Participation à l’amélioration des processus de monitoring",
+          "result": "Montée en compétence continue sur les outils de supervision et amélioration des processus.",
+          "environment": "Agents APM, Serveur de Récolte, Dynatrace"
+        }
+      ]
+    },
+    {
+      "range": {
+        "start": {
+          "month": "09",
+          "year": "2017"
+        },
+        "end": {
+          "month": "08",
+          "year": "2018"
+        }
+      },
+      "company": "Epodys (WifiAbord)",
+      "city": "",
+      "start": "2017-09-01T08:04:10+00:00",
+      "end": "2018-08-01T08:04:10+00:00",
+      "title": "Apprenti Développeur",
+      "description": "WifiAbord est une marque déposée par Epodys, ayant pour objectif de concevoir et de fournir des points d’accès Wi-Fi gratuits embarqués, logés dans des malettes, destinés aux bus touristiques circulant dans Paris.",
+      "objectives": [],
+      "context": [
+        "Mon rôle en tant qu'apprenti consistait à contribuer au dév. du script de génération de l'installateur de BlueOS, permettant la connexion au réseau 4G et la gestion du hotspot Wifi"
+      ],
+      "missions": [
+        {
+          "description": "Amélioration, maintenance et documentation des scripts Bash de compilation de l'installateur de BlueOS",
+          "result": "Réduction du temps de compilation de l’installateur.",
+          "environment": "Bash, Git, CMake"
+        },
+        {
+          "description": "Installation de l'OS sur les points d'accès Wi-Fi en systèmes embarqués dans des malettes sur site client",
+          "result": "Installation réussie sur 50+ points d’accès Wi-Fi embarqués en mallette chez le client de l'OpenTour.",
+          "environment": "Linux, Embarqué, SSH"
+        },
+        {
+          "description": "Mise en place de CI/CD avec Gitlab",
+          "result": "Automatisation des builds et tests.",
+          "environment": "Git, GitLab CI/CD"
+        },
+        {
+          "description": "Veiller à la maintenance des serveurs accueillant les services Front et Back",
+          "result": "Amélioration de la disponibilité des services.",
+          "environment": "Linux, SSH"
+        }
+      ]
+    }
+  ]
+}
