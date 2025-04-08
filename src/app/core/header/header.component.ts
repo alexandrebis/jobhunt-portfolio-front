@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { BioService } from '../../portfolio/services/bio.service';
 import { NavigationService } from '../services/navigation.service';
-import { AsyncPipe } from '@angular/common';
+import {AsyncPipe, CommonModule} from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle } from "@ng-bootstrap/ng-bootstrap";
 
@@ -9,6 +9,7 @@ import { NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle } from
   selector: 'app-header',
   templateUrl: './header.component.html',
   imports: [
+    CommonModule,
     AsyncPipe,
     RouterLink,
     NgbDropdown,

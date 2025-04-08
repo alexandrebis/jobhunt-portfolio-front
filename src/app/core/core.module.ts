@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 
 // Router Module of Angular
 import { RouterModule } from '@angular/router';
-// HTTP Client Module of Angular
-import { provideHttpClient } from '@angular/common/http';
 // Bootstrap Module
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HeaderComponent} from './header/header.component';
@@ -21,7 +19,8 @@ import {HeaderComponent} from './header/header.component';
   exports: [
     HeaderComponent
   ],
-  providers: [provideHttpClient()]
+  providers: []
+
 })
 export class CoreModule { }
 
