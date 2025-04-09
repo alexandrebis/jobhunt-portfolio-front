@@ -4,3 +4,34 @@
     border-bottom: 1rem solid;;
     padding: 0.25rem;
 }
+
+.bio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Boutons du menu cachés par défaut */
+.menu {
+    display: none;
+}
+
+/* Boutons du menu visibles en mode desktop */
+@media (min-width: 769px) {
+    .menu.desktop {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        align-items: start;
+    }
+}
+
+/* Boutons du menu visibles en mode mobile */
+
+@media (max-width: 768px) {
+    .menu.mobile {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        align-items: start;
+    }
+}
