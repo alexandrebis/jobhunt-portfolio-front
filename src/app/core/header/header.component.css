@@ -1,0 +1,6 @@
+:host {
+    width : 100%;
+    display: block;
+    border-bottom: 1rem solid;;
+    padding: 0.25rem;
+}
