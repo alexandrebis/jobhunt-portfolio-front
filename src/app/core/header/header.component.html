@@ -11,29 +11,11 @@
     </div>
   }
 
-  <!-- Buttons du menu en vue desktop  -->
-  <div class="menu desktop">
-    @for (item of menuItems; track item) {
-    <button type="button" class="ml-2 mr-2 btn btn-outline-dark border-0 font-weight-bold"
-            [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
-            [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
-    }
-  </div>
+  <!-- Menu de navigation -->
+  @if (isMobile$ | async) {
+    <portfolio-navigation-menu-burger />
+  } @else {
+    <portfolio-navigation-menu />
+  }
 
-  <!-- Buttons du menu en vue mobile -->
-  <div class="menu mobile">
-    <div ngbDropdown class="d-inline-block" display="dynamic" container="body">
-      <button class="btn btn-outline-dark border-0" ngbDropdownToggle>
-        <i class="fas fa-lg fa-bars"></i>
-      </button>
-
-      @for (item of menuItems; track item) {
-        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
-          <button ngbDropdownItem
-                  [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
-                  [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
-        </div>
-      }
-    </div>
-  </div>
 </div>

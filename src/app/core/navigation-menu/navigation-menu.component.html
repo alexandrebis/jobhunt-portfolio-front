@@ -1,0 +1,8 @@
+<!-- Buttons du menu en vue desktop  -->
+<div id="menu">
+    @for (item of menuItems; track item) {
+        <button type="button" class="ml-2 mr-2 btn btn-outline-dark border-0 font-weight-bold"
+                [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
+                [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
+    }
+</div>

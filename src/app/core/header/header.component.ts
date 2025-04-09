@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { BioService } from '../../portfolio/services/bio.service';
-import { NavigationService } from '../services/navigation.service';
-import {AsyncPipe, CommonModule} from '@angular/common';
+import { AsyncPipe, CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle } from "@ng-bootstrap/ng-bootstrap";
+import { NavigationMenuComponent } from "../navigation-menu/navigation-menu.component";
+import { NavigationMenuDropdownComponent } from "../navigation-menu-dropdown/navigation-menu-dropdown.component";
+import { distinctUntilChanged, fromEvent, startWith } from 'rxjs';
+import { map } from "rxjs/operators";
 
 @Component({
   selector: 'app-header',
@@ -12,27 +14,20 @@ import { NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle } from
     CommonModule,
     AsyncPipe,
     RouterLink,
-    NgbDropdown,
-    NgbDropdownToggle,
-    NgbDropdownMenu,
-    NgbDropdownItem
+    NavigationMenuComponent,
+    NavigationMenuDropdownComponent
   ],
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
   bio$;
-  isHome$;
+  isMobile$ = fromEvent(window, 'resize').pipe(
+      startWith(window.innerWidth),
+      map(() => window.innerWidth <= 768),
+      distinctUntilChanged()
+  );
 
-  menuItems = [
-    { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
-    { title: 'MyProjects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
-    { title: 'JobHunt', homePath: '/', fragment: 'jobs', pagePath: '/jobs' },
-  ]
-
-  constructor(private bioService: BioService, private headerService: NavigationService) {
+  constructor(private bioService: BioService) {
     this.bio$ = this.bioService.getBio();
-    this.isHome$ = this.headerService.isHome();
   }
-
-
 }
