@@ -16,9 +16,9 @@ export class NavigationMenuComponent {
     isHome$;
 
     menuItems = [
-        { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
-        { title: 'MyProjects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
-        { title: 'JobHunt', homePath: '/', fragment: 'jobs', pagePath: '/jobs' },
+        { title: 'À propos', homePath: '/', fragment: 'about', pagePath: '/about' },
+        { title: 'Mes projets', homePath: '/', fragment: 'projects', pagePath: '/projects' },
+        { title: 'Recherche d\'emploi', homePath: '/', fragment: 'jobs', pagePath: '/jobs' },
     ]
     constructor(private headerService: NavigationService) {
         this.isHome$ = this.headerService.isHome();

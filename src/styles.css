@@ -1,37 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
 
-.inria-sans-light {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
+* {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Inria Sans';
+  src: url('assets/fonts/Inria_Sans/InriaSans-Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
-.inria-sans-regular {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
+@font-face {
+  font-family: 'Inria Sans';
+  src: url('assets/fonts/Inria_Sans/InriaSans-Bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
 
-.inria-sans-bold {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('assets/fonts/Inria_Sans/InriaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
-.inria-sans-light-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('assets/fonts/Inria_Sans/InriaSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
 
-.inria-sans-regular-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('assets/fonts/Inria_Sans/InriaSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
-.inria-sans-bold-italic {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+@font-face {
+    font-family: 'Inria Sans';
+    src: url('assets/fonts/Inria_Sans/InriaSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inria Serif';
+    src: url('assets/fonts/Inria_Serif/InriaSerif-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
 }

@@ -1,21 +1,17 @@
-<div class="d-flex min-vh-10 w-100 justify-content-center pb-3 pt-3 pr-4 pl-4">
-  <!-- Section nom -->
-  @if (bio$ | async; as bio) {
-    <div class="bio" routerLink="/">
-      <h2 class="font-weight-bold">{{bio.owner.firstName}}</h2>
-      <h2 class="font-weight-light">{{bio.owner.lastName}}</h2>
-    </div>
-  } @else {
-    <div class="bio" routerLink="/">
-      <h2 class="font-weight-bold">Loading...</h2>
-    </div>
-  }
-
-  <!-- Menu de navigation -->
-  @if (isMobile$ | async) {
-    <portfolio-navigation-menu-burger />
-  } @else {
-    <portfolio-navigation-menu />
-  }
-
+<!-- Section nom -->
+@if (bio$ | async; as bio) {
+<div class="bio" routerLink="/">
+  <h2 class="font-weight-bold">{{bio.owner.firstName}} <strong>{{bio.owner.lastName}}</strong></h2>
 </div>
+} @else {
+<div class="bio" routerLink="/">
+  <h2 class="font-weight-bold">Loading...</h2>
+</div>
+}
+
+<!-- Menu de navigation -->
+@if (isMobile$ | async) {
+<portfolio-navigation-menu-burger />
+} @else {
+<portfolio-navigation-menu />
+}

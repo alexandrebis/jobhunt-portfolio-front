@@ -4,13 +4,12 @@
         <button class="btn btn-outline-dark border-0" ngbDropdownToggle>
             <i class="fas fa-lg fa-bars"></i>
         </button>
-
-        @for (item of menuItems; track item) {
-            <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
-                <button ngbDropdownItem
-                        [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
-                        [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
-            </div>
-        }
+        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+            @for (item of menuItems; track item) {
+            <button ngbDropdownItem
+                    [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
+                    [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
+            }
+        </div>
     </div>
 </div>

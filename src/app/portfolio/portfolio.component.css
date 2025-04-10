@@ -4,7 +4,13 @@
     align-items: flex-start;
     justify-content: center;
     margin: 1cm;
-    width: 80%
+    width: 80%;
+    font-weight: bold;
+}
+
+.intro h2 {
+    font-family: 'Inria Serif', sans-serif;
+    font-weight: 300;
 }
 
 .intro button {
